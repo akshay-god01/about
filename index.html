@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eypz - WhatsApp Bot Developer</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            overflow: hidden;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding-top: 30px;
+            min-height: 70px;
+            border-bottom: #77c3ec 3px solid;
+            animation: slideInDown 1s ease-in-out;
+        }
+        header h1 {
+            margin: 0;
+        }
+        .intro, .contact {
+            padding: 20px;
+            background: #fff;
+            color: #333;
+            border-radius: 5px;
+            margin-top: 20px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            animation: fadeIn 2s ease-in-out;
+        }
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            margin-top: 20px;
+            animation: slideInUp 1s ease-in-out;
+        }
+        .github-icon {
+            width: 24px;
+            height: 24px;
+            transition: transform 0.3s;
+        }
+        .github-icon:hover {
+            transform: scale(1.1);
+        }
+        .button-container {
+            display: flex;
+            gap: 10px;
+        }
+        .contact-button {
+            padding: 10px 20px;
+            background-color: #77c3ec;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            text-decoration: none;
+            font-size: 16px;
+            transition: background-color 0.3s, transform 0.3s;
+        }
+        .contact-button:hover {
+            background-color: #5aa6d1;
+            transform: scale(1.05);
+        }
+        @keyframes slideInDown {
+            from {
+                transform: translateY(-100%);
+                opacity: 0;
+            }
+            to {
+                transform: translateY(0);
+                opacity: 1;
+            }
+        }
+        @keyframes slideInUp {
+            from {
+                transform: translateY(100%);
+                opacity: 0;
+            }
+            to {
+                transform: translateY(0);
+                opacity: 1;
+            }
+        }
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Eypz - WhatsApp Bot Developer</h1>
+        </div>
+    </header>
+    <div class="container">
+        <section class="intro">
+            <h2>About Me</h2>
+            <p>My name is Eypz. I am a WhatsApp Bot Developer, currently focusing on Izumi-v3.</p>
+            <p>
+                <a href="https://github.com/sataniceypz/Izumi-v3" target="_blank">
+                    <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="GitHub" class="github-icon">
+                </a>
+            </p>
+        </section>
+        <section class="contact">
+            <h2>Contact</h2>
+            <div class="button-container">
+                <a href="mailto:sataniceypz@gmail.com" class="contact-button">Email</a>
+                <a href="https://wa.me/917902624272" class="contact-button" target="_blank">WhatsApp</a>
+            </div>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2024 Eypz</p>
+    </footer>
+</body>
+</html>
